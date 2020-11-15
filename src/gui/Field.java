@@ -59,9 +59,9 @@ public class Field extends JLabel {
         repaint();
 
         //Score
-        g.setFont(new Font("Arial",Font.BOLD,20));
-        g.drawString("Score:" +Snake.score,5,25);
-        g.drawString("Score:" +Snake.score,680,25);
+        g.setFont(new Font("Century-Gothic",Font.PLAIN,20));
+        g.drawString("Score: " +Snake.score,15,25);
+        g.drawString("Bestscore: " +Snake.bestscore,655,25);
     }
 
 }

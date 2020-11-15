@@ -22,7 +22,7 @@ public class GameGUI extends JFrame {
 
         public GameGUI(){
                 setTitle("Snake");
-                setSize(800,600);
+                setSize(820,600);
                 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 setLocationRelativeTo(null);
                 setLayout(null);
